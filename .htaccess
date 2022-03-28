@@ -1,0 +1,7 @@
+RewriteEngine On 
+
+RewriteRule ^getToken(.*)$ https://charoenlap.com/epetition/public_html/api/index.php?route=home/getToken [L,QSA]
+RewriteRule ^getCases(.*)$ https://charoenlap.com/epetition/public_html/api/index.php?route=home/getCases [L,QSA]
+RewriteRule ^getCase(.*)$ https://charoenlap.com/epetition/public_html/api/index.php?route=home/getCase [L,QSA]
+RewriteRule ^getOperation(.*)$ https://charoenlap.com/epetition/public_html/api/index.php?route=home/getOperation [L,QSA]
+RewriteRule ^sendCase(.*)$ https://charoenlap.com/epetition/public_html/api/index.php?route=home/SendCase [L,QSA]
